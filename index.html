@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IAnotar - Bloco de Notas Inteligente</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script type="module" crossorigin src="index.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="App">
+        <header class="Header">
+          <div class="Header-content">
+            <h1 class="Header-title">IAnotar</h1>
+            <p class="Header-subtitle">
+              O futuro dos blocos de notas está aqui. Desenhe à mão e veja a
+              inteligência artificial transformar seus rabiscos em texto
+              perfeito.
+            </p>
+            <div class="Header-status">
+              <div
+                class="inline-flex items-center px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium mb-8"
+                style="opacity: 1; transform: none"
+              >
+                🚧 Em Desenvolvimento
+              </div>
+            </div>
+            <div class="Header-actions">
+              <!-- Botão Baixar Agora -->
+              <button class="btn btn-primary">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" x2="12" y1="15" y2="3"></line>
+                </svg>
+                Baixar Agora
+              </button>
+
+              <!-- Botão Ver Demonstração -->
+              <button class="btn btn-secondary">Ver Demonstração</button>
+            </div>
+          </div>
+        </header>
+        <section class="Section Section-features">
+          <div class="Section-content">
+            <h2 class="Section-title">Recursos Revolucionários</h2>
+            <p class="Section-subtitle">
+              Tecnologia de ponta que transforma a maneira como você faz
+              anotações
+            </p>
+
+            <div class="Features-grid">
+              <!-- Desenho Intuitivo -->
+              <div class="Feature-card">
+                <div
+                  class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="lucide lucide-pen-tool h-8 w-8 text-blue-600"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"
+                    ></path>
+                    <path
+                      d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"
+                    ></path>
+                    <path d="m2.3 2.3 7.286 7.286"></path>
+                    <circle cx="11" cy="11" r="2"></circle>
+                  </svg>
+                </div>
+                <h3>Desenho Intuitivo</h3>
+                <p>
+                  Interface de desenho natural e responsiva. Escreva à mão como
+                  se fosse papel, mas com toda a potência digital.
+                </p>
+              </div>
+
+              <!-- IA Avançada -->
+              <div class="Feature-card">
+                <div
+                  class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="lucide lucide-sparkles h-8 w-8 text-purple-600"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
+                    ></path>
+                    <path d="M20 3v4"></path>
+                    <path d="M22 5h-4"></path>
+                    <path d="M4 17v2"></path>
+                    <path d="M5 18H3"></path>
+                  </svg>
+                </div>
+                <h3>IA Avançada</h3>
+                <p>
+                  Reconhecimento de escrita manuscrita com precisão excepcional.
+                  Nossa IA entende sua caligrafia e converte instantaneamente.
+                </p>
+              </div>
+
+              <!-- Múltiplos Formatos -->
+              <div class="Feature-card">
+                <div
+                  class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="lucide lucide-file-text h-8 w-8 text-green-600"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"
+                    ></path>
+                    <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+                    <path d="M10 9H8"></path>
+                    <path d="M16 13H8"></path>
+                    <path d="M16 17H8"></path>
+                  </svg>
+                </div>
+                <h3>Múltiplos Formatos</h3>
+                <p>
+                  Exporte suas notas em PDF, DOCX ou TXT. Compatibilidade total
+                  com todos os seus aplicativos favoritos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="Section Section-interface">
+          <div class="Section-content">
+            <h2 class="Section-title">Interface Elegante</h2>
+            <p class="Section-subtitle">
+              Design minimalista e funcional, inspirado nos melhores aplicativos
+              do mundo
+            </p>
+            <div class="Interface-grid">
+              <div class="Interface-card">
+                <img src="assets/note-creation.png" alt="Criação de Notas" />
+                <h3>Criação de Notas</h3>
+                <p>Interface limpa para escrever e desenhar suas ideias</p>
+              </div>
+              <div class="Interface-card">
+                <img
+                  src="assets/export-options.png"
+                  alt="Exportação Flexível"
+                />
+                <h3>Exportação Flexível</h3>
+                <p>Salve em múltiplos formatos com apenas um toque</p>
+              </div>
+              <div class="Interface-card">
+                <img src="assets/history.png" alt="Histórico Organizado" />
+                <h3>Histórico Organizado</h3>
+                <p>Acesse todas suas notas anteriores facilmente</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="Section Section-cta">
+          <div class="Section-content">
+            <h2 class="Section-title">Pronto para Revolucionar suas Notas?</h2>
+            <p class="Section-subtitle">
+              Junte-se a milhares de usuários que já descobriram o futuro das
+              anotações digitais
+            </p>
+            <button class="btn btn-cta">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" x2="12" y1="15" y2="3"></line>
+              </svg>
+              Baixar IAnotar Grátis
+            </button>
+
+            <p class="caixa">
+              © 2025 IAnotar. Todos os direitos reservados. Criado por Gustavo
+              Yuji Okagawa
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <manus-content-root></manus-content-root><make-with-manus></make-with-manus>
+    <script
+      defer=""
+      data-domain="manus.space"
+      src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"
+    ></script>
+    <script>
+      window.plausible =
+        window.plausible ||
+        function () {
+          (window.plausible.q = window.plausible.q || []).push(arguments);
+        };
+      plausible("custom-pageview", { props: { domain: window.location.host } });
+    </script>
+  </body>
+</html>
