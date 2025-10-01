@@ -290,6 +290,24 @@ body {
   color: #fff;
 }
 
+/* Animação de fade + movimento para cima */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Aplica no header */
+.Header-content {
+  opacity: 0; /* estado inicial */
+  animation: fadeUp 1s ease-out forwards;
+}
+
 .btn-primary:hover {
   background-color: #1d4ed8; /* azul mais escuro */
   transform: translateY(-2px);
